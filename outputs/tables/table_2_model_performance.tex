@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Out of fold win probability and multiclass outcome model performance}
+\label{tab:model_performance}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+Model Component & Out of Fold Log Loss & ROC AUC & Brier Score & Baseline Log Loss \\
+\midrule
+Innings 2 Chase WP Model (HGB) & 0.410 & 0.893 & 0.133 & 0.3998 (LR) \\
+Innings 1 Setting WP Model (HGB) & 0.660 & 0.694 & 0.224 & 0.6281 (LR) \\
+Ball Outcome Multiclass Model & 1.474 & N/A (Multiclass) &  & 1.4985 (Phase Prior) \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

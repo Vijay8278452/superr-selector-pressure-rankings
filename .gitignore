@@ -1,0 +1,22 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Data files (do not commit raw data)
+data/*.csv
+*.csv.gz
+
+# Output models and logs
+outputs/models/*.joblib
+*.log
+.pytest_cache/

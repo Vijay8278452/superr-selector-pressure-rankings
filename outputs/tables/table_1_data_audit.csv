@@ -1,0 +1,11 @@
+Stage,Count,Notes
+Raw matches in matches.csv,883,Historical IPL and T20I matches from 2022 onwards
+Matches abandoned before play,16,Zero balls bowled in ball_by_ball dataset
+Matches with ball-by-ball records,867,At least one delivery recorded
+Matches excluded (No Result / Abandoned),25,"No winner decided (21 No Result, 3 Abandoned, 1 Tied)"
+Completed matches in modelling sample,842,Decided contests with verified winner
+Raw deliveries in ball_by_ball,200999,All recorded deliveries
+Super over deliveries removed,38,Innings 3 and 4 tie-breaker balls
+Deliveries removed (uncompleted matches),1932,Balls bowled in matches with no final outcome
+Deliveries in modelling sample,199029,Innings 1 and 2 in completed matches
+DLS matches retained,24,Handled with revised targets and revised balls

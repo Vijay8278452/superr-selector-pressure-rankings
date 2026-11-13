@@ -1,0 +1,4 @@
+Model Component,Out of Fold Log Loss,ROC AUC,Brier Score,Baseline Log Loss
+Innings 2 Chase WP Model (HGB),0.4096,0.8935,0.1331,0.3998 (LR)
+Innings 1 Setting WP Model (HGB),0.6596,0.6939,0.2242,0.6281 (LR)
+Ball Outcome Multiclass Model,1.4736,N/A (Multiclass),N/A,1.4985 (Phase Prior)

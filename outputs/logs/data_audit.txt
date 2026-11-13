@@ -1,0 +1,42 @@
+======================================================================
+SUPERR SELECTOR SEASON 2: DATA AUDIT AND VERIFICATION LOG
+======================================================================
+Total rows in ball_by_ball: 200,999
+Total matches in matches.csv: 883
+Total competitions: 141
+Total player mappings: 6,413
+
+1. RUNS DEFINITION RECONCILIATION
+   Matches decided by runs: 415
+   Run wins matching margin exactly: 401 (96.63%)
+   Matches decided by wickets: 411
+   Wicket wins where target reached: 410 (99.76%)
+   Overall reconciliation rate: 811 / 826 (98.18%)
+   Conclusion: 'runs' represents bat runs only. Total runs equals runs + extras1_runs + extras_2_runs.
+
+2. LEGAL BALL RULE VERIFICATION
+   Total completed overs tested: 30,626
+   Naive rule (exclude wide and Overstep only): 99.28% of overs have exactly 6 balls
+   Strict rule (exclude wide, Overstep, other and Penalty): 99.9837% of overs have exactly 6 balls
+   Conclusion: 'other' and 'Penalty' are illegal deliveries or administrative penalty events.
+   Strict rule adopted: legal delivery is any ball where extras_type is not in (wide, Overstep, other, Penalty).
+
+3. PLAYER IDENTIFIER CONSISTENCY
+   Player IDs with multiple names in mapping: 0
+   Player names with multiple IDs in mapping: 7 (different individuals sharing a name)
+   Striker IDs with multiple names in ball_by_ball: 0
+   Bowler IDs with multiple names in ball_by_ball: 0
+   Conclusion: player_id is globally unique and stable across competitions.
+
+4. SAMPLE EXCLUSIONS AND DATA CLEANING COUNTS
+   Raw matches in matches.csv: 883
+   Matches abandoned before play (0 balls in ball_by_ball): 16
+   Matches with balls bowled: 867
+   Matches without winner (No Result / Abandoned / Tied): 25
+   Decided matches retained in modelling sample: 842
+   Raw deliveries in ball_by_ball: 200,999
+   Super over deliveries removed (innings 3 and 4): 38
+   Deliveries removed from uncompleted / no result matches: 1,932
+   Final modelling sample deliveries: 199,029
+   DLS revised matches handled: 24 retained with revised targets and overs; 10 excluded due to no result.
+======================================================================

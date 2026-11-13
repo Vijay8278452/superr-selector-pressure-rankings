@@ -1,0 +1,134 @@
+category,rank,player_id,player_name,team,base_rank,consensus_rank,top10_probability
+Batter,1,1077,David Miller,Gujarat Titans,1,1,0.8175
+Batter,2,6396,Tim David,Mumbai Indians,3,2,0.72
+Batter,3,5553,Phil Salt,Royal Challengers Bengaluru,2,3,0.63
+Batter,4,2367,Travis Head,Sunrisers Hyderabad,23,4,0.5625
+Batter,5,4369,Shai Hope,Delhi Capitals,6,5,0.5175
+Batter,6,47,Virat Kohli,Royal Challengers Bengaluru,10,6,0.3975
+Batter,7,3647,Shreyas Iyer,Kolkata Knight Riders,4,7,0.4125
+Batter,8,7897,Namboori Tilak Varma,Mumbai Indians,26,8,0.3275
+Batter,9,7216,Prabhsimran Singh,Punjab Kings,12,9,0.38
+Batter,10,4708,Rinku Singh,Kolkata Knight Riders,14,10,0.3025
+Batter,11,3297,Shimron Hetmyer,Rajasthan Royals,20,11,0.4425
+Batter,12,4260,Heinrich Klaasen,Sunrisers Hyderabad,15,12,0.2375
+Batter,13,6819,Yashasvi Jaiswal,Rajasthan Royals,11,13,0.33
+Batter,14,6281,Abhishek Sharma,Sunrisers Hyderabad,5,14,0.2775
+Batter,15,6314,Devdutt Padikkal,Rajasthan Royals,13,15,0.1975
+Batter,16,4703,Rishabh Pant,Delhi Capitals,7,16,0.0975
+Batter,17,23450,Sai Sudharsan,Gujarat Titans,8,17,0.2325
+Batter,18,2485,Babar Azam,Pakistan,31,18,0.1325
+Batter,19,5939,Cameron Green,Kolkata Knight Riders,25,19,0.1875
+Batter,20,2258,Sanju Samson,Rajasthan Royals,40,20,0.1775
+Batter,21,1941,Devon Conway,Chennai Super Kings,43,21,0.2875
+Batter,22,152,Ravindra Jadeja,Chennai Super Kings,21,22,0.1
+Batter,23,3125,Nicholas Pooran,Lucknow Super Giants,9,23,0.17
+Batter,24,4986,Rovman Powell,Delhi Capitals,17,24,0.1275
+Batter,25,1699,Suryakumar Yadav,Mumbai Indians,29,25,0.155
+Batter,26,7544,Venkatesh Iyer,Kolkata Knight Riders,24,26,0.1
+Batter,27,6931,Pathum Nissanka,Delhi Capitals,30,27,0.1875
+Batter,28,2416,Kyle Mayers,Lucknow Super Giants,18,28,0.195
+Batter,29,818,Mitchell Marsh,Delhi Capitals,37,29,0.13
+Batter,30,6674,Rahmanullah Gurbaz,Kolkata Knight Riders,19,30,0.145
+Batter,31,4106,Daryl Mitchell,Chennai Super Kings,27,31,0.0625
+Batter,32,768,Reeza Hendricks,South Africa,42,32,0.0875
+Batter,33,813,Jos Buttler,Rajasthan Royals,39,33,0.08
+Batter,34,2984,Sikandar Raza,Punjab Kings,35,34,0.0675
+Batter,35,2101,Quinton de Kock,Lucknow Super Giants,36,35,0.1
+Batter,36,3605,Aiden Markram,Sunrisers Hyderabad,48,36,0.0725
+Batter,37,838,Glenn Maxwell,Royal Challengers Bengaluru,50,37,0.1225
+Batter,38,4117,Ishan Kishan,Mumbai Indians,32,38,0.0575
+Batter,39,126,Rohit Sharma,Mumbai Indians,46,39,0.14
+Batter,40,6423,Riyan Parag,Rajasthan Royals,22,40,0.045
+Batter,41,2921,Fakhar Zaman,Pakistan,33,41,0.0225
+Batter,42,953,Lokesh Rahul,Lucknow Super Giants,45,42,0.0575
+Batter,43,20702,Tristan Stubbs,Delhi Capitals,28,43,0.0
+Batter,44,4755,Shivam Dube,Chennai Super Kings,44,44,0.0275
+Batter,45,3330,Hardik Pandya,Mumbai Indians,38,45,0.01
+Batter,46,3024,Mohammad Rizwan,Pakistan,16,46,0.0075
+Batter,47,167,Ajinkya Rahane,Kolkata Knight Riders,34,47,0.01
+Batter,48,3091,Sahibzada Farhan,Pakistan,51,48,0.035
+Batter,49,6288,Shubman Gill,Gujarat Titans,41,49,0.015
+Batter,50,2876,Axar Patel,Delhi Capitals,49,50,0.0
+Batter,51,6059,Ruturaj Gaikwad,Chennai Super Kings,47,51,0.0
+Batter,52,109,Wriddhiman Saha,Gujarat Titans,52,52,0.0025
+Batter,53,88,Faf du Plessis,Royal Challengers Bengaluru,53,53,0.0
+Bowler,1,6669,Mohsin Khan,Lucknow Super Giants,14,1,0.675
+Bowler,2,1566,Mohammed Shami,Gujarat Titans,5,2,0.615
+Bowler,3,4900,Wanindu Hasaranga,Royal Challengers Bengaluru,1,3,0.4725
+Bowler,4,278,Tim Southee,Kolkata Knight Riders,4,4,0.4425
+Bowler,5,360,Bhuvneshwar Kumar,Sunrisers Hyderabad,8,5,0.5125
+Bowler,6,4373,Mustafizur Rahman,Delhi Capitals,7,6,0.35
+Bowler,7,2876,Axar Patel,Delhi Capitals,18,7,0.4425
+Bowler,8,6806,Tushar Deshpande,Chennai Super Kings,2,8,0.305
+Bowler,9,3174,Matt Henry,Chennai Super Kings,9,9,0.3475
+Bowler,10,4874,Richard Ngarava,Zimbabwe,15,10,0.2875
+Bowler,11,3628,Kagiso Rabada,Punjab Kings,3,11,0.2475
+Bowler,12,6726,Romario Shepherd,Royal Challengers Bengaluru,11,12,0.2225
+Bowler,13,2681,Taskin Ahmed,Bangladesh,30,13,0.2875
+Bowler,14,2315,Reece Topley,Royal Challengers Bengaluru,47,14,0.315
+Bowler,15,2933,Jasprit Bumrah,Mumbai Indians,12,15,0.1375
+Bowler,16,3653,Avesh Khan,Lucknow Super Giants,24,16,0.2375
+Bowler,17,29888,Harshit Rana,Kolkata Knight Riders,44,17,0.2525
+Bowler,18,7240,FazalHaq Farooqi,Sunrisers Hyderabad,16,18,0.2225
+Bowler,19,39657,Eshan Malinga,Sunrisers Hyderabad,25,19,0.13
+Bowler,20,3644,Kuldeep Yadav,Delhi Capitals,6,20,0.0725
+Bowler,21,7967,Noor Ahmad,Gujarat Titans,22,21,0.19
+Bowler,22,7322,Yash Dayal,Royal Challengers Bengaluru,26,22,0.115
+Bowler,23,2320,Trent Boult,Rajasthan Royals,17,23,0.1375
+Bowler,24,4219,Krunal Pandya,Lucknow Super Giants,38,24,0.115
+Bowler,25,2984,Sikandar Raza,Punjab Kings,33,25,0.03
+Bowler,26,781,Sunil Narine,Kolkata Knight Riders,13,26,0.055
+Bowler,27,5944,Mohammed Siraj,Royal Challengers Bengaluru,55,27,0.195
+Bowler,28,6256,Varun Chakravarthy,Kolkata Knight Riders,27,28,0.13
+Bowler,29,830,Josh Hazlewood,Royal Challengers Bengaluru,66,29,0.2075
+Bowler,30,7503,Ravi Bishnoi,Lucknow Super Giants,10,30,0.08
+Bowler,31,4101,Mitchell Santner,Chennai Super Kings,42,31,0.0925
+Bowler,32,8661,Matheesha Pathirana,Chennai Super Kings,49,32,0.1025
+Bowler,33,1758,Patrick Cummins,Sunrisers Hyderabad,21,33,0.07
+Bowler,34,6161,Rahul Chahar,Punjab Kings,19,34,0.0075
+Bowler,35,22920,Jacob Duffy,Royal Challengers Bengaluru,37,35,0.1075
+Bowler,36,19312,Nuwan Thushara,Royal Challengers Bengaluru,29,36,0.0375
+Bowler,37,403,Umesh Yadav,Kolkata Knight Riders,39,37,0.0825
+Bowler,38,3276,Gudakesh Motie,West Indies,40,38,0.045
+Bowler,39,7344,Shoriful Islam,Bangladesh,51,39,0.125
+Bowler,40,2261,Harshal Patel,Royal Challengers Bengaluru,41,40,0.1275
+Bowler,41,2633,Jason Holder,Gujarat Titans,48,41,0.1
+Bowler,42,6450,Mujeeb Ur Rahman,Kolkata Knight Riders,35,42,0.0625
+Bowler,43,4692,Lockie Ferguson,Punjab Kings,46,43,0.05
+Bowler,44,7364,Haris Rauf,Pakistan,28,44,0.11
+Bowler,45,2417,Akeal Hosein,Chennai Super Kings,20,45,0.0575
+Bowler,46,3330,Hardik Pandya,Mumbai Indians,54,46,0.1725
+Bowler,47,5379,Mark Adair,Ireland,63,47,0.07
+Bowler,48,479,Adil Rashid,Sunrisers Hyderabad,31,48,0.0125
+Bowler,49,6355,Shaheen Afridi,Pakistan,52,49,0.0875
+Bowler,50,7808,Marco Jansen,Sunrisers Hyderabad,45,50,0.065
+Bowler,51,4641,Lungi Ngidi,Delhi Capitals,34,51,0.04
+Bowler,52,152,Ravindra Jadeja,Chennai Super Kings,23,52,0.015
+Bowler,53,3275,Alzarri Joseph,Gujarat Titans,77,53,0.0475
+Bowler,54,1813,Deepak Chahar,Chennai Super Kings,68,54,0.075
+Bowler,55,4816,Khaleel Ahmed,Delhi Capitals,36,55,0.0425
+Bowler,56,2636,Adam Zampa,Rajasthan Royals,43,56,0.0225
+Bowler,57,305,Ravichandran Ashwin,Rajasthan Royals,32,57,0.0075
+Bowler,58,4722,Rashid Khan,Gujarat Titans,62,58,0.025
+Bowler,59,19316,Maheesh Theekshana,Chennai Super Kings,53,59,0.0125
+Bowler,60,2639,Marcus Stoinis,Lucknow Super Giants,59,60,0.0625
+Bowler,61,5041,Mukesh Kumar,Delhi Capitals,65,61,0.0375
+Bowler,62,5837,Mahedi Hasan,Bangladesh,56,62,0.0025
+Bowler,63,7920,Nathan Ellis,Punjab Kings,74,63,0.0075
+Bowler,64,4489,Prasidh Krishna,Rajasthan Royals,60,64,0.02
+Bowler,65,6676,Azmatullah Omarzai,Punjab Kings,72,65,0.0375
+Bowler,66,6464,Arshdeep Singh,Punjab Kings,73,66,0.0275
+Bowler,67,5809,Naveen ul Haq,Lucknow Super Giants,58,67,0.005
+Bowler,68,2526,Ish Sodhi,New Zealand,64,68,0.0025
+Bowler,69,7325,Harpreet Brar,Punjab Kings,57,69,0.0025
+Bowler,70,4409,Sam Curran,Punjab Kings,61,70,0.035
+Bowler,71,1612,Yuzvendra Chahal,Rajasthan Royals,50,71,0.0075
+Bowler,72,8746,Vaibhav Arora,Kolkata Knight Riders,71,72,0.03
+Bowler,73,2411,Sandeep Sharma,Rajasthan Royals,69,73,0.0025
+Bowler,74,2490,Mohammad Nawaz,Pakistan,78,74,0.0
+Bowler,75,4265,T Natarajan,Sunrisers Hyderabad,75,75,0.0
+Bowler,76,58246,Prince Yadav,Lucknow Super Giants,76,76,0.0025
+Bowler,77,3298,Jofra Archer,Mumbai Indians,67,77,0.01
+Bowler,78,2399,Dushmantha Chameera,Delhi Capitals,70,78,0.0
+Bowler,79,829,Mitchell Starc,Delhi Capitals,80,79,0.005
+Bowler,80,1318,Andre Russell,Kolkata Knight Riders,79,80,0.0

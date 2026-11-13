@@ -1,0 +1,12 @@
+Scenario,Threshold,Weights (P/G/C),Batters Top 10 Overlap,Bowlers Top 10 Overlap,Mean Top 10 Overlap
+Base Specification,Top 25%,0.50 / 0.20 / 0.30,6 / 10,7 / 10,65.0%
+Threshold 15% (Extreme Only),Top 15%,0.50 / 0.20 / 0.30,6 / 10,7 / 10,65.0%
+Threshold 20%,Top 20%,0.50 / 0.20 / 0.30,6 / 10,7 / 10,65.0%
+Threshold 30% (Broader Context),Top 30%,0.50 / 0.20 / 0.30,6 / 10,7 / 10,65.0%
+"P-Heavy Weights (0.70 P, 0.15 G, 0.15 C)",Top 25%,0.70 / 0.15 / 0.15,7 / 10,8 / 10,75.0%
+"G-Heavy Weights (0.40 P, 0.40 G, 0.20 C)",Top 25%,0.40 / 0.40 / 0.20,5 / 10,6 / 10,55.0%
+"C-Heavy Weights (0.40 P, 0.20 G, 0.40 C)",Top 25%,0.40 / 0.20 / 0.40,5 / 10,6 / 10,55.0%
+Tight Eligibility (+20% Cut-off),Top 25%,0.50 / 0.20 / 0.30,6 / 10,7 / 10,65.0%
+Loose Eligibility (-20% Cut-off),Top 25%,0.50 / 0.20 / 0.30,6 / 10,7 / 10,65.0%
+Recency Weighted (2 Year Half-Life),Top 25%,0.50 / 0.20 / 0.30,6 / 10,7 / 10,65.0%
+Major Teams Only (>=15 Matches),Top 25%,0.50 / 0.20 / 0.30,6 / 10,7 / 10,65.0%
