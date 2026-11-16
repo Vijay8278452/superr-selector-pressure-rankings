@@ -47,7 +47,7 @@ def dataframe_to_latex_snippet(df: pd.DataFrame, col_align: str = None) -> str:
         lines.append(" & ".join(row_vals) + " \\\\")
 
     lines.append("\\bottomrule")
-    lines.append("\\end{{tabular}}")
+    lines.append("\\end{tabular}")
     return "\n".join(lines)
 
 
