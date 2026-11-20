@@ -9,28 +9,28 @@ This repository contains the complete analytical pipeline and reproducible code 
 The system rates players using a regularised multi-objective model combining Pressure Rating (P), Clutch Gap (G) and Consistency (C), validated through 400 bootstrap consensus iterations.
 
 ### Top 10 Batters Under Pressure
-1. **David Miller** (ID: 3042, Gujarat Titans)
-2. **Phil Salt** (ID: 6867, Kolkata Knight Riders)
-3. **Tim David** (ID: 6868, Mumbai Indians)
-4. **Shreyas Iyer** (ID: 2901, Kolkata Knight Riders)
-5. **Abhishek Sharma** (ID: 5543, Sunrisers Hyderabad)
-6. **Shai Hope** (ID: 3374, Delhi Capitals)
-7. **Rishabh Pant** (ID: 3511, Delhi Capitals)
-8. **Sai Sudharsan** (ID: 8645, Gujarat Titans)
-9. **Nicholas Pooran** (ID: 3303, Lucknow Super Giants)
-10. **Virat Kohli** (ID: 47, Royal Challengers Bengaluru)
+1. **David Miller** (ID: 1077, Gujarat Titans) — Consensus Score: 1.594, Top 10 Prob: 81.8%
+2. **Tim David** (ID: 6396, Mumbai Indians) — Consensus Score: 0.987, Top 10 Prob: 72.0%
+3. **Phil Salt** (ID: 5553, Royal Challengers Bengaluru) — Consensus Score: 1.367, Top 10 Prob: 63.0%
+4. **Travis Head** (ID: 2367, Sunrisers Hyderabad) — Consensus Score: 0.150, Top 10 Prob: 56.2%
+5. **Shai Hope** (ID: 4369, Delhi Capitals) — Consensus Score: 0.814, Top 10 Prob: 51.7%
+6. **Virat Kohli** (ID: 47, Royal Challengers Bengaluru) — Consensus Score: 0.587, Top 10 Prob: 39.8%
+7. **Shreyas Iyer** (ID: 3647, Kolkata Knight Riders) — Consensus Score: 0.878, Top 10 Prob: 41.2%
+8. **Namboori Tilak Varma** (ID: 7897, Mumbai Indians) — Consensus Score: 0.092, Top 10 Prob: 32.8%
+9. **Prabhsimran Singh** (ID: 7216, Punjab Kings) — Consensus Score: 0.547, Top 10 Prob: 38.0%
+10. **Rinku Singh** (ID: 4708, Kolkata Knight Riders) — Consensus Score: 0.422, Top 10 Prob: 30.2%
 
 ### Top 10 Bowlers Under Pressure
-1. **Wanindu Hasaranga** (ID: 5493, Sunrisers Hyderabad)
-2. **Tushar Deshpande** (ID: 5472, Chennai Super Kings)
-3. **Kagiso Rabada** (ID: 3334, Punjab Kings)
-4. **Tim Southee** (ID: 307, Kolkata Knight Riders)
-5. **Mohammed Shami** (ID: 2899, Gujarat Titans)
-6. **Kuldeep Yadav** (ID: 3105, Delhi Capitals)
-7. **Mustafizur Rahman** (ID: 3350, Chennai Super Kings)
-8. **Bhuvneshwar Kumar** (ID: 2888, Sunrisers Hyderabad)
-9. **Matt Henry** (ID: 2977, Lucknow Super Giants)
-10. **Ravi Bishnoi** (ID: 6475, Lucknow Super Giants)
+1. **Mohsin Khan** (ID: 6669, Lucknow Super Giants) — Consensus Score: 0.639, Top 10 Prob: 67.5%
+2. **Mohammed Shami** (ID: 1566, Gujarat Titans) — Consensus Score: 1.161, Top 10 Prob: 61.5%
+3. **Wanindu Hasaranga** (ID: 4900, Royal Challengers Bengaluru) — Consensus Score: 1.724, Top 10 Prob: 47.2%
+4. **Tim Southee** (ID: 278, Kolkata Knight Riders) — Consensus Score: 1.227, Top 10 Prob: 44.2%
+5. **Bhuvneshwar Kumar** (ID: 360, Sunrisers Hyderabad) — Consensus Score: 0.987, Top 10 Prob: 51.2%
+6. **Mustafizur Rahman** (ID: 4373, Delhi Capitals) — Consensus Score: 0.987, Top 10 Prob: 35.0%
+7. **Axar Patel** (ID: 2876, Delhi Capitals) — Consensus Score: 0.502, Top 10 Prob: 44.2%
+8. **Tushar Deshpande** (ID: 6806, Chennai Super Kings) — Consensus Score: 1.598, Top 10 Prob: 30.5%
+9. **Matt Henry** (ID: 3174, Chennai Super Kings) — Consensus Score: 0.973, Top 10 Prob: 34.8%
+10. **Richard Ngarava** (ID: 4874, Zimbabwe) — Consensus Score: 0.611, Top 10 Prob: 28.7%
 
 ---
 
@@ -83,6 +83,19 @@ superr-round1-pressure-rankings/
 ├── run_all.py                         # Single command pipeline runner
 ├── outputs/
 │   ├── tables/                        # Output CSV and LaTeX tables (T1 to T8)
+│   ├── figures/                       # High resolution publication figures (F1 to F10)
+│   ├── logs/                          # Execution logs and audit trail
+│   └── final_rankings.csv             # Official master player ranking CSV
+├── dashboard/
+│   └── index.html                     # Self-contained interactive web dashboard
+├── presentation/
+│   └── RR_Pressure_Analysis_Presentation.pptx # Executive scouting presentation (18 slides)
+└── report/
+    ├── main.tex                       # LaTeX source of 18-page methodology paper
+    ├── main.pdf                       # Compiled 18-page methodology research paper
+    ├── RR_Pressure_Analysis_Report.tex# LaTeX source of 22-page extended report
+    ├── RR_Pressure_Analysis_Report.pdf# Compiled 22-page report with RR squad fit
+    └── RR_Pressure_Analysis_Report.docx# Executive Word report (30+ pages)
 │   ├── figures/                       # Output PNG and PDF figures (F1 to F10)
 │   ├── logs/                          # Comprehensive data audit logs
 │   ├── models/                        # Serialised model artifacts
